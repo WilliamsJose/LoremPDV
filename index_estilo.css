@@ -1,0 +1,692 @@
+/* geral */
+body{
+    font-family: 'Iceberg', sans-serif;
+    letter-spacing: 1px;
+    font-weight: 100;
+}
+
+section > .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+h4{
+    padding-top: 20px;
+}
+
+main{
+    color: #686868;
+}
+
+/* navegação geral */
+.nav-link{
+    display: inline-block;
+    padding: .1rem .3rem;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.navbar-collapse{
+    transition: all .5s;
+}
+
+/* background escuro nas seções */
+.dark-bg{
+    background: #f2f2f2;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    text-decoration: none;
+    color: white;
+    text-shadow: 0 0 2px red;
+    transition: all .2s;
+}
+
+
+/* navegação principal */
+.main-nav{
+    background: #16004dd7;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+/* personalização do hover nos links da navegação */
+.menuprincipal a{
+    color: rgb(212, 209, 209);
+}
+
+.menuprincipal a:hover{
+    color: rgb(151, 151, 252);
+    transition: all .2s;
+}
+
+/* logo */
+.main-nav > a > img{
+    width: 90px;
+}
+
+/* icone menu da navegação */
+.navbar-toggler img{
+    width: 20px;
+}
+
+/* header */
+/* background do header */
+header .xtz{
+    text-align: center;
+    padding-top: 80px;
+}
+
+header .bg-img{
+    background-image: radial-gradient(#00aeef, #1c75bc);
+    width: 100%;
+    height: 600px;
+}
+/* texto do header */
+header .bg-img .bg-over-text{
+    width: 100%;
+    height: 250px;
+    color: white;
+    text-align: center;
+    padding: 35px 15px 0 15px;
+}
+
+header .bg-over-img{
+    display: none;
+}
+
+header .big-logo{
+    width: 240px;
+    margin-bottom: 25px;
+}
+
+header .bg-over-text h5{
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+header .bg-over-text p{
+    margin-bottom: 40px;
+}
+
+header .bg-over-text .btn{
+    margin-bottom: 10px;
+    color: azure;
+}
+
+/* seção funcionalidades */
+.funcionalidades{
+    margin-top: 40px;
+}
+
+.designresponsivo span img:hover, .retinadisplay span img:hover, .modooffline span img:hover, .geolocalizacao span img:hover, .crossdevice span img:hover, .customizavel span img:hover{
+    filter: brightness(2);
+}
+
+.designresponsivo, .retinadisplay, .modooffline, .geolocalizacao, .crossdevice, .customizavel{
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.designresponsivo .icon{
+    width: 60px;
+    height: 60px;
+    background: url(img/icon/web-design.png);
+}
+.designresponsivo .icon:hover{
+    width: 60px;
+    height: 60px;
+    background: url(img/icon/web-design-blue.png);
+}
+
+.retinadisplay .icon{
+    width: 64px;
+    height: 64px;
+    background: url(img/icon/visivel.png);
+}
+.retinadisplay .icon:hover{
+    width: 64px;
+    height: 64px;
+    background: url(img/icon/visivel-blue.png);
+}
+
+.modooffline .icon{
+    width: 48px;
+    height: 48px;
+    background: url(img/icon/wifi.png);
+}
+.modooffline .icon:hover{
+    width: 48px;
+    height: 48px;
+    background: url(img/icon/wifi-blue.png);
+}
+
+.geolocalizacao .icon{
+    width: 50px;
+    height: 50px;
+    background: url(img/icon/geolocalizacao.png);
+}
+.geolocalizacao .icon:hover{
+    width: 50px;
+    height: 50px;
+    background: url(img/icon/geolocalizacao-blue.png);
+}
+
+.crossdevice .icon{
+    width: 50px;
+    height: 50px;
+    background: url(img/icon/dois-smartphones.png);
+}
+.crossdevice .icon:hover{
+    width: 50px;
+    height: 50px;
+    background: url(img/icon/dois-smartphones-blue.png);
+}
+
+.customizavel .icon{
+    width: 60px;
+    height: 60px;
+    background: url(img/icon/papelaria.png);
+}
+.customizavel .icon:hover{
+    width: 60px;
+    height: 60px;
+    background: url(img/icon/papelaria-blue.png);
+}
+
+/* painel de gerendiamento background */
+.paineldegerenciamento .bg{
+    background: url(/img/bg-6.png);
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 490px;
+    background-size: cover;
+    padding-top: 120px;
+    color: white;
+    background-attachment: fixed;
+	background-position: left;
+	background-repeat: no-repeat;
+}
+
+.paineldegerenciamento .layer{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, .7);
+    z-index: -1;
+    width: 100%;
+    height: 490px;
+}
+
+.paineldegerenciamento .iconcheck{
+    width: 25px;
+}
+
+.paineldegerenciamento p{
+    text-align: left;
+    line-height: 18px;
+}
+.paineldegerenciamento button{
+    transition: all .5s;
+}
+.paineldegerenciamento button:hover{
+    transition: all .5s;
+}
+
+/* seção conheça app */
+.conheca .mobile-container .mobile-1{
+    height: 210px;
+    width: 120px;
+    background: url(img/mobile.png);
+    background-size: cover; 
+}
+
+.conheca .mobile-container .mobile-2{
+    background: url(img/mobile.png);
+    height: 210px;
+    width: 120px;
+    background: url(img/mobile.png);
+    background-size: cover; 
+}
+
+.mobile-img{
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.mobile-container{
+    align-content: center;
+    height: 400px;
+    max-width: 400px;
+}
+
+.container-m1{
+    text-align: left;
+}
+
+.container-m2{
+    text-align: right;
+    text-align: -moz-right;
+}
+
+/* detalhes */
+.detalhes .integracao .icon{
+    width: 20px;
+}
+
+.detalhes .usabilidade .icon, .detalhes .respeito .icon{
+    width: 30px;
+}
+
+/* Serviços exclusivos */
+.detalhes .economize, .detalhes .insercao, .detalhes .internet{
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.detalhes .economize h6, .detalhes .insercao h6, .detalhes .internet h6{
+    color: #8e44ad;
+}
+
+.detalhes .economize .bg {
+    background: #f8f8f8;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    padding: 36.5px;
+    margin-bottom: 20px;
+}
+
+.detalhes .insercao .bg{
+    background: #f8f8f8;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    padding: 31px;
+    margin-bottom: 20px;
+}
+
+.detalhes .internet .bg{
+    background: #f8f8f8;
+    width: 125px;
+    height: 125px;
+    border-radius: 100%;
+    padding: 30.5px;
+    margin-bottom: 20px;
+}
+
+/* contato */
+address{
+    font-size: 14px;
+    font-style: italic;
+    line-height: 5px;
+}
+
+/* faq */
+.faq .content{
+    border: 5px solid #e8e8e8; 
+    border-radius: 10px; 
+    padding: 5px; 
+    margin-bottom: 10px;
+}
+
+.faq .card-header{
+    background: rgb(74, 179, 74);
+    color: #484848;
+    transition: all .5s;
+    border-radius: 10px;
+}
+
+.faq .card-header:hover{
+    background: rgb(57, 138, 57);
+    color: whitesmoke;
+    transition: all .5s;
+    border-radius: 15px;
+}
+
+.faq .content span{
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.faq .content span img{
+    width: 30px;
+}
+
+/* screenshots */
+
+
+/* depoimentos */
+.depoimentos h5{
+    margin-top: 10px;
+}
+
+.depoimentos .content{
+    width: 260px;
+    height: 350px; 
+    border: 5px solid #e8e8e8; 
+    border-radius: 10px; 
+    padding: 5px; 
+    position: relative;
+}
+
+.depoimentos .owl-item{
+    text-align: center;
+    text-align: -moz-center;
+}
+
+.depoimentos .autor-img{
+    width: 60px;
+}
+
+.depoimentos .autor-1{
+    background: url(img/mulher-jovem.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 1px 2px black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+}
+.depoimentos .autor-2{
+    background: url(img/homem-barba.jpg);
+    background-size: cover;
+    background-position: center;
+    box-shadow: 0 1px 2px black;
+    border-radius: 50%;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    width: 60px;
+    height: 60px;
+}
+
+.depoimentos .nome-data{
+    text-align: left;
+    position: absolute;
+    width: 175px;
+    height: 60px;
+    right: 5px;
+    top: 5px;
+}
+
+.depoimentos .texto {
+	width: 240px;
+	height: 240px;
+	position: absolute;
+	top: 75px;
+    left: 5px;
+}
+
+.depoimentos .footer{
+	position: absolute;
+	bottom: 0;
+	right: 5px;
+}
+
+/* espaçamento entre seções */
+section > .container-fluid{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* footer / rodapé */
+footer > .container-fluid{
+    padding-top: 50px;
+    padding-bottom: 15px;
+}
+
+footer a img{
+    width: 20px;
+}
+
+footer a{
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+footer a:hover{
+    filter: brightness(0);
+    transition: all .5s;
+}
+
+/* tablet */
+@media only screen and (min-width: 768px){
+    header .bg-img .big-logo{
+        width: 300px;
+    }
+
+    /* conheça o app */
+    .conheca .container-m1, .conheca .container-m2{
+        display: none;
+    }
+
+    .conheca .mobile-container {
+        height: 425px;
+        background: url(img/clientes.png);
+        background-size: 550px;
+        background-repeat: no-repeat;
+        width: 550px;
+        max-width: none;
+    }
+}
+
+/* pc */
+@media only screen and (min-width: 992px) {
+    /* navegação principal */
+    .navbar-toggler{
+        display: none;
+    }   
+
+    .navbar-collapse:not(.show){
+        display: inline-block;
+    }
+
+    .menuprincipal .row-fullwidth{
+        display: inline-block;
+        margin: 0 !important;
+    }
+
+    .menuprincipal{
+        position: fixed;
+        top: 35px;
+        right: 10px;
+    }
+
+    .main-nav > a > img {
+	    width: 195px;
+    }
+
+    /* cabeçalho */
+    header{
+        position: relative;
+    }
+
+    header .xtz{
+        padding-top: 95px;
+    }
+
+    header .bg-over-img{
+        display: block;
+    }
+
+    header .bg-img .big-logo{
+        width: 250px;
+    }
+
+    header .bg-over-text{
+        padding: 0 !important;
+    }
+
+    header .bg-over-img{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        width: 500px;
+    }
+
+    header .bg-over-text{
+        position: absolute;
+        top: 250px;
+        left: 2%;
+        text-align: left !important;
+        width: 40% !important;
+        height: 250px !important;
+    }
+
+    header .bg-over-text h5{
+        font-size: 32px;
+    }    
+
+    header .bg-over-text p{
+        font-size: 16px;
+    }
+
+    header .bg-over-text a{
+        display: inline-block;
+    }
+
+    header .bg-over-img{
+        position: absolute;
+        bottom: 5px;
+        right: 5px;
+        width: 500px !important;
+        overflow: hidden;
+        height: 385px !important;
+    }
+
+    header .bg-over-img .big-logo-2{
+        width: 500px;
+    }
+
+    /* principais funcionalidades */
+    .designresponsivo, .retinadisplay, .modooffline{
+        display: inline-table;
+        width: 33%;
+    }
+
+    .geolocalizacao, .crossdevice, .customizavel{
+        display: inline-table;
+        width: 33%;
+    }
+
+    /* painel de gerenciamento */
+    .paineldegerenciamento .bg{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .paineldegerenciamento h3{
+        text-align: left;
+        padding-left: 60px;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    header .bg-over-img{
+        position: absolute;
+        bottom: 0px;
+        right: -10px;
+        width: 600px !important;
+        overflow: hidden;
+        height: 420px !important;
+    }
+
+    header .bg-over-img .big-logo-2{
+        width: 600px;
+    }
+
+    /* conheça o app */
+    .conheca .mobile-container {
+        height: 625px;
+        background: url(img/clientes.png);
+        background-size: 800px;
+        background-repeat: no-repeat;
+        width: 800px;
+        max-width: none;
+    }
+
+    /* porque é impressionante */
+    .porquevmspdv .container-img{
+        position: relative;
+        width: 44%;
+        display: inline-block;
+        height: 380px;
+    }
+    
+    .porquevmspdv .img-1{
+        background: url(img/login.png);
+        width: 500px;
+        height: 385px;
+        position: absolute;
+        background-size: cover;
+        top: 0;
+        right: 0;
+    }
+
+    .porquevmspdv .img-2{
+        background: url(img/produtos.png);
+        width: 500px;
+        height: 385px;
+        background-size: cover;
+        position: absolute;
+        top: 25px;
+    }
+
+    .porquevmspdv .container-text{
+        display: inline-block;
+        width: 36%;
+        text-align: left;
+    }
+
+    /* perfeito para sua empresa */
+    .perfeitoempresa .container-img{
+        position: relative;
+        width: 44%;
+        display: inline-block;
+        height: 480px;
+    }
+    
+    .perfeitoempresa .img-1{
+        background: url(img/celular-1.png);
+        width: 191px;
+        height: 400px;
+        position: absolute;
+        background-size: cover;
+        top: 0;
+        right: 55px;
+    }
+
+    .perfeitoempresa .img-2{
+        background: url(img/celular-2.png);
+        width: 191px;
+        height: 400px;
+        background-size: cover;
+        position: absolute;
+        top: 25px;
+        right: 155px;
+    }
+
+    .perfeitoempresa .container-text{
+        display: inline-block;
+        width: 50%;
+        text-align: right;
+        padding-right: 20px;
+    }   
+
+    /* detalhes */
+    .detalhes .economize, .detalhes .insercao, .detalhes .internet{
+        display: inline-table;
+        width: 33%;
+    }
+}
